@@ -1,0 +1,54 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 650px;;
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 45vw;
+    height: max-content;
+    border: 5px solid yellow;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(100deg ,cyan,blue,yellow);
+    color: #fff;
+}
+.content{
+    margin-bottom:20px;
+}
+h1{
+    margin-bottom:2em ;
+    font-style: italic;
+}
+h3{
+    float: right;
+    color: red;
+    background-color: yellow;
+    font-style: initial;
+    padding: 8px;
+    
+}
+.buttom{
+    width: 100%;
+    height: max-content;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+#next{
+    color: #fff;
+    padding: 8px 16px;
+    background-color: rgba(172, 255, 47, 0.373);
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
